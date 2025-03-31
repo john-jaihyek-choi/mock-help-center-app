@@ -129,7 +129,7 @@ Mock Help Center App is a fully responsive web application built to mock Eventbr
 
 <!-- UI Layouts and Components -->
 
-## UI Laybouts and Components
+## UI Layouts and Components
 
 ### Layouts
 
@@ -142,15 +142,21 @@ Mock Help Center App is a fully responsive web application built to mock Eventbr
 - "Article" card
 - "Topic" card
 
+### Pages
+
+- Article details
+- Topic details
+- Search results
+
 <!-- ARCHITECTURE DIAGRAM -->
 
 ## Architecture Diagram
 
-|              | Languages / Tools / Services                                                                                                                            |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Language** | [![JavaScript][JavaScript]][JavaScript-url] [![HTML5][HTML5]][HTML5-url] [![CSS3][CSS3]][CSS3-url]                                                      |
-| **Backend**  | [![EC2][AWSEC2]][AWSEC2-url] [![Node.js][Node.js]][Node.js-url] [![Express.js][Express.js]][Express.js-url] [![PostgreSQL][PostgreSQL]][PostgreSQL-url] |
-| **Frontend** | [![React][React.js]][React-url] [![Bootstrap][Bootstrap.com]][Bootstrap-url]                                                                            |
+|                    | Languages / Tools / Services                                                                                                                   |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Language**       | [![JavaScript][JavaScript]][JavaScript-url] [![TypeScript][TypeScript]][TypeScript-url] [![HTML5][HTML5]][HTML5-url] [![CSS3][CSS3]][CSS3-url] |
+| **Infrastructure** | [![S3][S3]][S3-url] [![CloudFront][CloudFront]][CloudFront-url]                                                                                |
+| **Frontend**       | [![React][React.js]][React-url] [![Gatsby][Gatsby]][Gatsby-url]                                                                                |
 
 <p align="center">
   <img src="images/architecture-diagram.png" alt="Description">
@@ -348,3 +354,7 @@ List of resources found helpful during development
 [Laravel-url]: https://laravel.com
 [JQuery]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com
+[CloudFront]: https://img.shields.io/badge/CloudFront-663399?style=for-the-badge&logo=c&logoColor=white
+[CloudFront-url]: https://aws.amazon.com/cloudfront/
+[Gatsby]: https://img.shields.io/badge/Gatsby-663399?style=for-the-badge&logo=gatsby&logoColor=white
+[Gatsby-url]: https://gatsbyjs.com
